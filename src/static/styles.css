@@ -142,3 +142,27 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.delete-btn {
+  color: red;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.delete-btn:hover {
+  color: darkred;
+}
+
+.activity-card table {
+  border-collapse: collapse;
+}
+
+.activity-card td {
+  padding: 2px 0;
+}
+
+.activity-card td:last-child {
+  text-align: right;
+}
